@@ -1,3 +1,6 @@
 baseURL = "https://wrex.github.io/tdgtest/"
 languageCode = "en-us"
 title = "TDG Test site"
+
+[permalinks]
+  tdg = "/:filename/"
