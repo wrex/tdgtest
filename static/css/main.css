@@ -24,7 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,11 +47,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* END RESET */
 
+/* GLOBAL STYLES */
+a {
+  color: #f00;
+}
 
-/* Custom CSS for this site */
-
-html {
-  font-size: 16px;
-  font: sans-serif;
+h1 {
+  font-size: 3vw;
+  margin-top: 0;
 }
