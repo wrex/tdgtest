@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<ul>
+{{ range (.Pages.ByParam "id") }}
+  <li>
+    <a class="font-125" href="{{ .RelPermalink }}">{{ .Params.Id}}</a> • {{ .Title }}
+  </li>
+{{ end }}
+</ul>
+
+{{ end }}
